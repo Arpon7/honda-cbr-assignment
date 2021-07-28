@@ -13,3 +13,15 @@
 .honda-grayscale{
   filter: grayscale(100%);
 }
+
+/* Happy client secton  */
+.honda-heading{
+  color: #E76F51;
+}
+
+.fa-star{
+ color: #E76F51;
+}
+.star{
+  text-align: center;
+}
