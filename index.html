@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Honda-CBR</title>
+  <!-- bootstrap css cdn  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- custom css -->
+  <link rel="stylesheet" href="styles/style.css">
+  <!-- font awesome link  -->
+  <script src="https://kit.fontawesome.com/a814989cb6.js" crossorigin="anonymous"></script>
+  <!-- favicon  -->
+  <link rel="shortcut icon" href="images/honda-logo.png" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-dark honda-bg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/honda-logo.png" alt="honda-logo" width="50" height="40">
+          HONDA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="https://web.programming-hero.com/">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="https://getbootstrap.com/docs/5.0/components/navbar/" tabindex="-1"
+                aria-disabled="true">contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true"><button
+                  class="btn honda-button rounded-3 ms-3">Login</button></a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- banner-section  -->
+    <section class="container-fluid honda-bg">
+      <div class="row ">
+        <div class="col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
+          <div class="w-50">
+            <p class="fw-lighter text-white">Lorem ipsum dolor sit amet.</p>
+            <h1 class="fw-bold text-white">Honda CBR 300R</h1> <br>
+            <p class="fw-light text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ex facere
+              nam repudiandae, quibusdam
+              ab id consequuntur quidem fugiat amet.</p>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn honda-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Purchase
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Do you want to configure your Honda CBR 300R?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    You can customize and the best suited Honda CBR 300 experience!
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Check out More!</button>
+                    <button type="button" class="btn btn-primary">Proceed to Pay</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img class="img-fluid mt-5" src="images/header-bike.png" alt="">
+        </div>
+      </div>
+    </section>
+    <!-- featured bikes section  -->
+    <section class="container my-5">
+      <h1 class="text-center">Fetured Bikes 2021</h1>
+      <div class="row my-5 d-flex justify-content-evenly">
+        <div class="col-md-3 ">
+          <img class="img-fluid honda-grayscale" src="images/feature-bike.jpg" alt="featured bike">
+        </div>
+        <div class="col-md-3 ">
+          <img class="img-fluid" src="images/feature-bike.jpg" alt="featured bike">
+        </div>
+        <div class="col-md-3 ">
+          <img class="img-fluid honda-grayscale" src="images/feature-bike.jpg" alt="featured bike">
+        </div>
+      </div>
+    </section>
+    <!-- latest news section  -->
+    <section class="container my-5">
+      <h1 class="text-center">latest News</h1>
+      <div class="row my-5 d-flex justify-content-evenly">
+        <div class="col-md-3 col-lg-3 ">
+          <img class="img-fluid" src="images/bike-1.png" alt="bike">
+          <h3>Ducati XDIAVEL br
+            S-73</h3>
+          <p>This is an awesome blog about bikes. Rewad this blog to stay connnected with the bike world. Get the latest
+            news!</p>
+          <button class="btn honda-button">Read more</button>
+        </div>
+        <div class="col-md-3 col-lg-3 my-2 ">
+          <img class="img-fluid" src="images/bike-2.png" alt="bike">
+          <h3>Harley Davidson <br> S-73000R</h3>
+          <p>This is an awesome blog about bikes. Rewad this blog to stay connnected with the bike world. Get the latest
+            news!</p>
+          <button class="btn honda-button">Read more</button>
+        </div>
+        <div class="col-md-3 col-lg-3 ">
+          <img class="img-fluid" src="images/bike-3.png" alt="bike">
+          <h3>2021 Honda CBR500R</h3>
+          <p>This is an awesome blog about bikes. Rewad this blog to stay connnected with the bike world. Get the latest
+            news!</p>
+          <button class="btn honda-button">Read more</button>
+        </div>
+      </div>
+
+      </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+.honda-button{
+  background-color: #E76F51;
+  color: white;
+  
+}
+
+.honda-bg{
+  background-color: #264653;
+}
+
+
+/* featured bike section*/
+.honda-grayscale{
+  filter: grayscale(100%);
+}
