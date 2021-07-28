@@ -25,3 +25,13 @@
 .star{
   text-align: center;
 }
+
+/* footer */
+.honda-link{
+  text-decoration: none;
+  color: bisque;
+}
+
+.footer-bg{
+  background-color: #0B0D17;
+}
